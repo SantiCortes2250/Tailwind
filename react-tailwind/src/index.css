@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.botones{
+  @apply w-5/12 h-16 bg-yellow-300 mt-3 mb-3 rounded-full text-black text-xl;
+}
+
+.contenedor-img{
+  @apply w-full h-2/6 flex justify-center items-center border-b-8;
+
+}
